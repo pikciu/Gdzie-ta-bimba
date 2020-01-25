@@ -99,7 +99,6 @@
 		3882051B1D5340600000F58E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3882051A1D5340600000F58E /* UIColorExtensions.swift */; };
 		388844581E2E6AF300B3A559 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3888445A1E2E6AF300B3A559 /* Localizable.strings */; };
 		3895023B1D550BAC00877A8D /* GroupBollardDirectionsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3895023A1D550BAC00877A8D /* GroupBollardDirectionsConverter.swift */; };
-		38967E411FFE3FD200CB44F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38967E401FFE3FD200CB44F4 /* Info.plist */; };
 		38967E441FFE40E500CB44F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38967E461FFE40E500CB44F4 /* InfoPlist.strings */; };
 		38A68B021D50C57A00BBC087 /* StopPointPushpinsToAnnotationsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68B011D50C57A00BBC087 /* StopPointPushpinsToAnnotationsConverter.swift */; };
 		38A68B041D50C59700BBC087 /* StopPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A68B031D50C59700BBC087 /* StopPointAnnotation.swift */; };
@@ -1608,7 +1607,6 @@
 				38DAC1BE1D4A49F4001DF664 /* Frameworks */,
 				38DAC1BF1D4A49F4001DF664 /* Resources */,
 				87F0CAE7EEA76105A3A9C538 /* [CP] Embed Pods Frameworks */,
-				F3058A542D1E4ED8620E88B0 /* [CP] Copy Pods Resources */,
 				38B880861E2910B900D05572 /* ShellScript */,
 				D1C423331E3206CA004973D0 /* Embed App Extensions */,
 			);
@@ -1631,7 +1629,6 @@
 				38DAC1D21D4A49F4001DF664 /* Frameworks */,
 				38DAC1D31D4A49F4001DF664 /* Resources */,
 				BB6E55E40E10753E43C2081F /* [CP] Embed Pods Frameworks */,
-				4ED3ED39C0786FE864691F60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1651,7 +1648,6 @@
 				D1C4231F1E3206C9004973D0 /* Sources */,
 				D1C423201E3206C9004973D0 /* Frameworks */,
 				D1C423211E3206C9004973D0 /* Resources */,
-				7150448C75F9BDE71CB84B8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1669,12 +1665,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = WhallaLabs;
 				TargetAttributes = {
 					38DAC1C01D4A49F4001DF664 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7B5S8VZN35;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
@@ -1690,7 +1685,6 @@
 					};
 					D1C423221E3206C9004973D0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 7B5S8VZN35;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -1728,7 +1722,6 @@
 				38D7FFE71D50081700937FD2 /* BollardCell.xib in Resources */,
 				38D7FFFB1D50103600937FD2 /* Bollard.storyboard in Resources */,
 				38A84F451E2CD8BA00D8FE0B /* Settings.storyboard in Resources */,
-				38967E411FFE3FD200CB44F4 /* Info.plist in Resources */,
 				3833CFAD1D539270000B74C2 /* SearchBarView.xib in Resources */,
 				38EFD2E31E2FDDA300A932CE /* LaunchScreen.storyboard in Resources */,
 				D1074F6B1E4DC88400E85A59 /* WidgetCell.xib in Resources */,
@@ -1799,45 +1792,14 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" b3fc4491cd6a901d7129c0b3a0485f25908fb069 dc4094b4edec62874e1fd753fb590e0dffce814a583c85d02c4ffa836df86756";
 		};
-		4ED3ED39C0786FE864691F60 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pekaTests/Pods-pekaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7150448C75F9BDE71CB84B8D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pekaWidget/Pods-pekaWidget-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		87F0CAE7EEA76105A3A9C538 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-peka/Pods-peka-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-peka/Pods-peka-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -1849,11 +1811,11 @@
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -1865,10 +1827,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-peka/Pods-peka-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-peka/Pods-peka-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		958097843D8D3E2C8CF19574 /* [CP] Check Pods Manifest.lock */ = {
@@ -1895,7 +1858,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-pekaTests/Pods-pekaTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-pekaTests/Pods-pekaTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
@@ -1926,7 +1889,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pekaTests/Pods-pekaTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pekaTests/Pods-pekaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4F746E2C519419F59894B41 /* [CP] Check Pods Manifest.lock */ = {
@@ -1945,21 +1908,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3058A542D1E4ED8620E88B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-peka/Pods-peka-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2364,12 +2312,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2377,7 +2327,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2418,12 +2367,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -2431,7 +2382,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2460,17 +2410,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = peka/peka.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7B5S8VZN35;
 				INFOPLIST_FILE = peka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whallalabs.peka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3ddc877e-2635-49fc-b715-b36f99e1c7ef";
-				PROVISIONING_PROFILE_SPECIFIER = "Gdzie ta bimba Development";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -2486,17 +2432,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = peka/peka.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7B5S8VZN35;
 				INFOPLIST_FILE = peka/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whallalabs.peka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4aef6a6f-fa47-436f-a2d7-b44933e85d49";
-				PROVISIONING_PROFILE_SPECIFIER = "Gdzie ta bimba";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2543,16 +2484,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7B5S8VZN35;
 				INFOPLIST_FILE = pekaWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whallalabs.peka.pekaWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e6d513c1-c9a4-43ff-9bf3-cf70f02f966e";
-				PROVISIONING_PROFILE_SPECIFIER = "Bimba widget dev";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
@@ -2567,17 +2504,12 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 7B5S8VZN35;
 				INFOPLIST_FILE = pekaWidget/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whallalabs.peka.pekaWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "e40a5eba-bb85-4bce-813b-48eb44b2909c";
-				PROVISIONING_PROFILE_SPECIFIER = "Bimba widget";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
